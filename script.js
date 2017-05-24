@@ -58,7 +58,7 @@ evenNumbers();
 console.log('Display odd numbers from 10 to 30 by using ‘while’ loop');
 function oddNumbers() {
 	var i = 10;
-	while(i < 20){
+	while(i < 30){
 		if (i % 2 !== 0) {
 			console.log(i);
 		}
