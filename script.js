@@ -101,15 +101,15 @@ changeFunction();
 
 /*  Write code which will ask user (prompt ) to put number greater than 100, repeat prompt until user put required number, then display result of prompt
 (do it using ‘while)*/
-console.log('Write code which will ask user (prompt ) to put number greater than 100 (do it using ‘while)');
+/*console.log('Write code which will ask user (prompt ) to put number greater than 100 (do it using ‘while)');
 function numberBiggerThan100(){
-		var i = prompt("Please, enter number bigger than 100!");
-		while (i < 100){
-			i = prompt("Please, enter number bigger than 100!");
-			i++;
+		var number = 0;
+		while (number <= 100){
+			number = prompt("Please, enter number bigger than 100!", 101);
+			
 		}	
 }
-numberBiggerThan100();
+numberBiggerThan100();*/
 
 
 
@@ -118,10 +118,9 @@ numberBiggerThan100();
 console.log('Write code which will ask user (prompt ) to put number greater than 100 (do it using ‘do while)');
 function DoNumberBiggerThan100(){
 		do {
-			i = prompt("Please, enter number bigger than 100!");
-			i++;
+			number = prompt("Please, enter number bigger than 100!", 101);
 		}
-		while(i < 100);	
+		while(number <= 100);	
 }
 DoNumberBiggerThan100();
 
